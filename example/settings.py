@@ -31,9 +31,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
+    'django.contrib.staticfiles',
 
     # Database migration helpers
     'south',
 
     'faq',
 )
+STATIC_URL = '/static/'
